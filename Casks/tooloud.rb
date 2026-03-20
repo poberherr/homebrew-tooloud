@@ -1,6 +1,6 @@
 cask "tooloud" do
   version "1.0.0"
-  sha256 "beb1bd3a50f1892a71812a1705e959889041b40110df88f32ee23a4ea10e629c"
+  sha256 "e44d1999e0a4f8ea541970de902be6bf0024c714a33fb7a4a3e61aef0e465a24"
 
   url "https://github.com/poberherr/tooLoud/releases/download/v#{version}/tooLoud.dmg"
   name "tooLoud"
