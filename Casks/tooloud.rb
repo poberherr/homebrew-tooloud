@@ -11,6 +11,10 @@ cask "tooloud" do
 
   app "tooLoud.app"
 
+  postflight do
+    system "xattr", "-dr", "com.apple.quarantine", "#{appdir}/tooLoud.app"
+  end
+
   zap trash: [
     "~/Library/Preferences/com.tooLoud.app.plist",
   ]
